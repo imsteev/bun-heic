@@ -9,7 +9,8 @@ bun install
 To run:
 
 ```bash
-bun run index.ts
+bun run index.ts <path-to-heic-file>
+# outputs: <filename>.jpg in directory where you ran the script
 ```
 
 This project was created using `bun init` in bun v1.0.13. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
