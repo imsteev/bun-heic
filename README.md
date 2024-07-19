@@ -1,5 +1,13 @@
 # bun-heic
 
+## Quickstart
+Build the executable and update your PATH to include the directory that contains it.
+```bash
+bun build --compile --minify --sourcemap index.ts --outfile beic # <-- can rename "beic" to whatever you want
+```
+Running `beic` will convert files and put stuff in the directory it was ran it.
+
+### Develop
 To install dependencies:
 
 ```bash
